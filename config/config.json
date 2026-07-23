@@ -1,0 +1,8 @@
+{
+  "storage_root": "./storage",
+  "database_path": "./database/evidence_vault.db",
+  "exports_path": "./exports",
+  "logs_path": "./logs",
+  "max_file_size_mb": 500,
+  "allowed_extensions": [".jpg", ".jpeg", ".png", ".mp4", ".mov", ".mp3", ".wav", ".pdf", ".txt", ".docx"]
+}
