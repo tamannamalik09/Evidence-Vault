@@ -1,0 +1,4 @@
+C:/Users/taman/OneDrive/Desktop/Evidence-Vault/build/CMakeFiles/evidence_vault_core.dir
+C:/Users/taman/OneDrive/Desktop/Evidence-Vault/build/CMakeFiles/evidence_vault_config_test.dir
+C:/Users/taman/OneDrive/Desktop/Evidence-Vault/build/CMakeFiles/edit_cache.dir
+C:/Users/taman/OneDrive/Desktop/Evidence-Vault/build/CMakeFiles/rebuild_cache.dir

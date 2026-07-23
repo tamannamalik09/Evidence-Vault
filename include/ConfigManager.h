@@ -1,9 +1,12 @@
 #pragma once
 
+#if defined(__cpp_lib_filesystem) || __has_include(<filesystem>)
+#include <filesystem>
+namespace fs = std::filesystem;
+#else
 #include <cstdlib>
 #include <fstream>
 #include <string>
-#include <vector>
 
 namespace fs {
 class path {
@@ -62,6 +65,10 @@ inline void create_directories(const path& input) {
     std::system(command.c_str());
 }
 }
+#endif
+
+#include <string>
+#include <vector>
 
 class ConfigManager {
 public:

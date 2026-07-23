@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libevidence_vault_core.a CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj
+C:\MinGW\bin\ranlib.exe libevidence_vault_core.a

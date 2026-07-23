@@ -1,8 +1,6 @@
 #include "ConfigManager.h"
 
-#include <algorithm>
 #include <fstream>
-#include <iostream>
 #include <sstream>
 #include <stdexcept>
 #include <string>
@@ -174,7 +172,7 @@ int ConfigManager::extractIntValue(const std::string& json, const std::string& k
 }
 
 void ConfigManager::normalizeRelativePaths() {
-    const auto basePath = configPath_.parent_path();
+    const auto basePath = fs::path(".");
 
     if (storageRoot_.is_relative()) {
         storageRoot_ = basePath / storageRoot_;
