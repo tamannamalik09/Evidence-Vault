@@ -11,7 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/ConfigManager.cpp" "CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj.d"
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/DatabaseManager.cpp" "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj.d"
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/Evidence.cpp" "CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj.d"
+  "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/FileManager.cpp" "CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj.d"
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/HashGenerator.cpp" "CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj.d"
+  "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/MetadataExtractor.cpp" "CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj.d"
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/sqlite3_stub.cpp" "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj.d"
   )
 

@@ -213,6 +213,30 @@ src/Evidence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.s
 .PHONY : src/Evidence.cpp.s
 
+src/FileManager.obj: src/FileManager.cpp.obj
+.PHONY : src/FileManager.obj
+
+# target to build an object file
+src/FileManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj
+.PHONY : src/FileManager.cpp.obj
+
+src/FileManager.i: src/FileManager.cpp.i
+.PHONY : src/FileManager.i
+
+# target to preprocess a source file
+src/FileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.i
+.PHONY : src/FileManager.cpp.i
+
+src/FileManager.s: src/FileManager.cpp.s
+.PHONY : src/FileManager.s
+
+# target to generate assembly for a file
+src/FileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.s
+.PHONY : src/FileManager.cpp.s
+
 src/HashGenerator.obj: src/HashGenerator.cpp.obj
 .PHONY : src/HashGenerator.obj
 
@@ -236,6 +260,30 @@ src/HashGenerator.s: src/HashGenerator.cpp.s
 src/HashGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.s
 .PHONY : src/HashGenerator.cpp.s
+
+src/MetadataExtractor.obj: src/MetadataExtractor.cpp.obj
+.PHONY : src/MetadataExtractor.obj
+
+# target to build an object file
+src/MetadataExtractor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj
+.PHONY : src/MetadataExtractor.cpp.obj
+
+src/MetadataExtractor.i: src/MetadataExtractor.cpp.i
+.PHONY : src/MetadataExtractor.i
+
+# target to preprocess a source file
+src/MetadataExtractor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.i
+.PHONY : src/MetadataExtractor.cpp.i
+
+src/MetadataExtractor.s: src/MetadataExtractor.cpp.s
+.PHONY : src/MetadataExtractor.s
+
+# target to generate assembly for a file
+src/MetadataExtractor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.s
+.PHONY : src/MetadataExtractor.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -304,9 +352,15 @@ help:
 	@echo ... src/Evidence.obj
 	@echo ... src/Evidence.i
 	@echo ... src/Evidence.s
+	@echo ... src/FileManager.obj
+	@echo ... src/FileManager.i
+	@echo ... src/FileManager.s
 	@echo ... src/HashGenerator.obj
 	@echo ... src/HashGenerator.i
 	@echo ... src/HashGenerator.s
+	@echo ... src/MetadataExtractor.obj
+	@echo ... src/MetadataExtractor.i
+	@echo ... src/MetadataExtractor.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

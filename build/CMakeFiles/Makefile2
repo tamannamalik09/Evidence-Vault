@@ -87,12 +87,12 @@ clean: CMakeFiles/evidence_vault_config_test.dir/clean
 CMakeFiles/evidence_vault_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=3,4,5,6,7,8 "Built target evidence_vault_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target evidence_vault_core"
 .PHONY : CMakeFiles/evidence_vault_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/evidence_vault_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/evidence_vault_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 0
 .PHONY : CMakeFiles/evidence_vault_core.dir/rule
@@ -104,7 +104,7 @@ evidence_vault_core: CMakeFiles/evidence_vault_core.dir/rule
 # codegen rule for target.
 CMakeFiles/evidence_vault_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=3,4,5,6,7,8 "Finished codegen for target evidence_vault_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Finished codegen for target evidence_vault_core"
 .PHONY : CMakeFiles/evidence_vault_core.dir/codegen
 
 # clean rule for target.
@@ -124,7 +124,7 @@ CMakeFiles/evidence_vault_config_test.dir/all: CMakeFiles/evidence_vault_core.di
 
 # Build rule for subdir invocation for target.
 CMakeFiles/evidence_vault_config_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/evidence_vault_config_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles 0
 .PHONY : CMakeFiles/evidence_vault_config_test.dir/rule

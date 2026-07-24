@@ -13,7 +13,9 @@ add_library(evidence_vault_core STATIC
     "${EVIDENCE_VAULT_SOURCE_DIR}/ConfigManager.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/DatabaseManager.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/Evidence.cpp"
+    "${EVIDENCE_VAULT_SOURCE_DIR}/FileManager.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/HashGenerator.cpp"
+    "${EVIDENCE_VAULT_SOURCE_DIR}/MetadataExtractor.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/sqlite3_stub.cpp"
 )
 

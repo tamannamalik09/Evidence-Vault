@@ -116,11 +116,26 @@ CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\Evidence.cpp -o CMakeFiles\evidence_vault_core.dir\src\Evidence.cpp.s
 
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/FileManager.cpp
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\FileManager.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\FileManager.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\FileManager.cpp
+
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\FileManager.cpp > CMakeFiles\evidence_vault_core.dir\src\FileManager.cpp.i
+
+CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\FileManager.cpp -o CMakeFiles\evidence_vault_core.dir\src\FileManager.cpp.s
+
 CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
 CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
 CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/HashGenerator.cpp
 CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\HashGenerator.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\HashGenerator.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\HashGenerator.cpp
 
 CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.i: cmake_force
@@ -131,11 +146,26 @@ CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\HashGenerator.cpp -o CMakeFiles\evidence_vault_core.dir\src\HashGenerator.cpp.s
 
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/MetadataExtractor.cpp
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\MetadataExtractor.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\MetadataExtractor.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\MetadataExtractor.cpp
+
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\MetadataExtractor.cpp > CMakeFiles\evidence_vault_core.dir\src\MetadataExtractor.cpp.i
+
+CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\MetadataExtractor.cpp -o CMakeFiles\evidence_vault_core.dir\src\MetadataExtractor.cpp.s
+
 CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
 CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
 CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/sqlite3_stub.cpp
 CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\sqlite3_stub.cpp
 
 CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.i: cmake_force
@@ -151,7 +181,9 @@ evidence_vault_core_OBJECTS = \
 "CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj" \
 "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj" \
 "CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj" \
+"CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj" \
 "CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj" \
+"CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj" \
 "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
 
 # External object files for target evidence_vault_core
@@ -160,11 +192,13 @@ evidence_vault_core_EXTERNAL_OBJECTS =
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj
+libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/FileManager.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj
+libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/MetadataExtractor.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/build.make
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libevidence_vault_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libevidence_vault_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\evidence_vault_core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\evidence_vault_core.dir\link.txt --verbose=$(VERBOSE)
 
