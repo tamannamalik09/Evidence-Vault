@@ -213,6 +213,30 @@ src/Evidence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.s
 .PHONY : src/Evidence.cpp.s
 
+src/HashGenerator.obj: src/HashGenerator.cpp.obj
+.PHONY : src/HashGenerator.obj
+
+# target to build an object file
+src/HashGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj
+.PHONY : src/HashGenerator.cpp.obj
+
+src/HashGenerator.i: src/HashGenerator.cpp.i
+.PHONY : src/HashGenerator.i
+
+# target to preprocess a source file
+src/HashGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.i
+.PHONY : src/HashGenerator.cpp.i
+
+src/HashGenerator.s: src/HashGenerator.cpp.s
+.PHONY : src/HashGenerator.s
+
+# target to generate assembly for a file
+src/HashGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.s
+.PHONY : src/HashGenerator.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -280,6 +304,9 @@ help:
 	@echo ... src/Evidence.obj
 	@echo ... src/Evidence.i
 	@echo ... src/Evidence.s
+	@echo ... src/HashGenerator.obj
+	@echo ... src/HashGenerator.i
+	@echo ... src/HashGenerator.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj.d"
   "CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj"
   "CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj.d"
+  "CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj"
+  "CMakeFiles/evidence_vault_core.dir/src/HashGenerator.cpp.obj.d"
   "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
   "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj.d"
   "libevidence_vault_core.a"
