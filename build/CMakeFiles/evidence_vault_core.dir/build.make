@@ -86,17 +86,51 @@ CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\ConfigManager.cpp -o CMakeFiles\evidence_vault_core.dir\src\ConfigManager.cpp.s
 
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/DatabaseManager.cpp
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\DatabaseManager.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\DatabaseManager.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\DatabaseManager.cpp
+
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\DatabaseManager.cpp > CMakeFiles\evidence_vault_core.dir\src\DatabaseManager.cpp.i
+
+CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\DatabaseManager.cpp -o CMakeFiles\evidence_vault_core.dir\src\DatabaseManager.cpp.s
+
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/flags.make
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/includes_CXX.rsp
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/sqlite3_stub.cpp
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj: CMakeFiles/evidence_vault_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj -MF CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.obj.d -o CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.obj -c C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\sqlite3_stub.cpp
+
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\sqlite3_stub.cpp > CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.i
+
+CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\taman\OneDrive\Desktop\Evidence-Vault\src\sqlite3_stub.cpp -o CMakeFiles\evidence_vault_core.dir\src\sqlite3_stub.cpp.s
+
 # Object files for target evidence_vault_core
 evidence_vault_core_OBJECTS = \
-"CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj"
+"CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj" \
+"CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj" \
+"CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj"
 
 # External object files for target evidence_vault_core
 evidence_vault_core_EXTERNAL_OBJECTS =
 
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj
+libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj
+libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/build.make
 libevidence_vault_core.a: CMakeFiles/evidence_vault_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libevidence_vault_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\taman\OneDrive\Desktop\Evidence-Vault\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libevidence_vault_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\evidence_vault_core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\evidence_vault_core.dir\link.txt --verbose=$(VERBOSE)
 

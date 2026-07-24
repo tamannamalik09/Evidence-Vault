@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/ConfigManager.cpp" "CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.obj.d"
+  "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/DatabaseManager.cpp" "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj.d"
+  "C:/Users/taman/OneDrive/Desktop/Evidence-Vault/src/sqlite3_stub.cpp" "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj" "gcc" "CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

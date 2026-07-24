@@ -165,6 +165,30 @@ src/ConfigManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/ConfigManager.cpp.s
 .PHONY : src/ConfigManager.cpp.s
 
+src/DatabaseManager.obj: src/DatabaseManager.cpp.obj
+.PHONY : src/DatabaseManager.obj
+
+# target to build an object file
+src/DatabaseManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.obj
+.PHONY : src/DatabaseManager.cpp.obj
+
+src/DatabaseManager.i: src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.i
+
+# target to preprocess a source file
+src/DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.cpp.i
+
+src/DatabaseManager.s: src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.s
+
+# target to generate assembly for a file
+src/DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -189,6 +213,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_config_test.dir\build.make CMakeFiles/evidence_vault_config_test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/sqlite3_stub.obj: src/sqlite3_stub.cpp.obj
+.PHONY : src/sqlite3_stub.obj
+
+# target to build an object file
+src/sqlite3_stub.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.obj
+.PHONY : src/sqlite3_stub.cpp.obj
+
+src/sqlite3_stub.i: src/sqlite3_stub.cpp.i
+.PHONY : src/sqlite3_stub.i
+
+# target to preprocess a source file
+src/sqlite3_stub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.i
+.PHONY : src/sqlite3_stub.cpp.i
+
+src/sqlite3_stub.s: src/sqlite3_stub.cpp.s
+.PHONY : src/sqlite3_stub.s
+
+# target to generate assembly for a file
+src/sqlite3_stub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/sqlite3_stub.cpp.s
+.PHONY : src/sqlite3_stub.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -202,9 +250,15 @@ help:
 	@echo ... src/ConfigManager.obj
 	@echo ... src/ConfigManager.i
 	@echo ... src/ConfigManager.s
+	@echo ... src/DatabaseManager.obj
+	@echo ... src/DatabaseManager.i
+	@echo ... src/DatabaseManager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/sqlite3_stub.obj
+	@echo ... src/sqlite3_stub.i
+	@echo ... src/sqlite3_stub.s
 .PHONY : help
 
 
