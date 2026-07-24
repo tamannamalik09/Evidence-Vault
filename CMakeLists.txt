@@ -12,6 +12,7 @@ set(EVIDENCE_VAULT_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 add_library(evidence_vault_core STATIC
     "${EVIDENCE_VAULT_SOURCE_DIR}/ConfigManager.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/DatabaseManager.cpp"
+    "${EVIDENCE_VAULT_SOURCE_DIR}/Evidence.cpp"
     "${EVIDENCE_VAULT_SOURCE_DIR}/sqlite3_stub.cpp"
 )
 

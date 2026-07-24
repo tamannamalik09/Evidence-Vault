@@ -189,6 +189,30 @@ src/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/DatabaseManager.cpp.s
 .PHONY : src/DatabaseManager.cpp.s
 
+src/Evidence.obj: src/Evidence.cpp.obj
+.PHONY : src/Evidence.obj
+
+# target to build an object file
+src/Evidence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.obj
+.PHONY : src/Evidence.cpp.obj
+
+src/Evidence.i: src/Evidence.cpp.i
+.PHONY : src/Evidence.i
+
+# target to preprocess a source file
+src/Evidence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.i
+.PHONY : src/Evidence.cpp.i
+
+src/Evidence.s: src/Evidence.cpp.s
+.PHONY : src/Evidence.s
+
+# target to generate assembly for a file
+src/Evidence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\evidence_vault_core.dir\build.make CMakeFiles/evidence_vault_core.dir/src/Evidence.cpp.s
+.PHONY : src/Evidence.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -253,6 +277,9 @@ help:
 	@echo ... src/DatabaseManager.obj
 	@echo ... src/DatabaseManager.i
 	@echo ... src/DatabaseManager.s
+	@echo ... src/Evidence.obj
+	@echo ... src/Evidence.i
+	@echo ... src/Evidence.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
